@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <script src="jquery/node_modules/jquery/dist/jquery.js"></script>
+    <script src="jquery/node_modules/jquery/dist/jquery.slim.min.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+
+    <script src="javaScript/commonJS.js"></script>
+    <script src="javaScript/imgGrid.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+    <link rel="stylesheet" href="css/imageModalAndOverlay.css">
+    
+</head>
+<body>
+
+    
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar_style">
+       
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <a href="#" class="navbar-brand">Logo</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Illustrations</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Photographers</a>
+                                <a href="#" class="dropdown-item">Popular Photos</a>
+                            </div>
+        
+                        </li>
+                        <li class="nav-item ">
+                            <!-- Convert it to button -->
+                            <button class="login_btn">Login</button>
+        
+                        </li>
+                        
+                                
+                            
+                    </ul>
+                </div>
+                <button class="sidebar_btn sidenav_trigger">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+        
+            </nav>
+        
+        <!-- ==================================================================================== -->
+        <!-- Sidebar Contents -->
+        <div class="sidenav_container">
+                <div class="sidenav">
+                    <button class="sidenav_close">&times;</button>
+                    <div class="sidenav_contents">
+                        <a href="#">Home </a>
+                        <a href="#">Photos </a>
+                        <a href="#">About Us </a>
+                        <a href="#">Contact Us </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+        
+        <!-- ================================================================================ -->
+                    <!-- LOGIN -->
+                    <div class="loginModal">
+                            <button class="loginModalCloseBtn">&times;</button>
+                            <div class="loginModal_content">
+                                <div class="loginModal_row">
+                                    <div class="loginModal_col" id="mainImage">
+                                        
+                                    </div>
+                                    <div class="loginModal_col" id="loginModal_Content">
+                                        <h5>LOGIN</h5>
+                                        <form action="">
+                                            <div class="form-group">
+                                               <!-- <label for="">EMAIL ADDRESS</label> -->
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your e-mail" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="form-group">
+                                            <!-- <label for="">PASSWORD</label> -->
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label for=" " class="form-check-label"> Remember Me </label> 
+                                            </div>
+                                            <button class="btn btn-block" style="background-color:chartreuse">Login</button>
+                                     </form>
+                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+
+
+        <div class="portfolio_container">
+            <div class="portfolio_left_container">
+                    <img src="images/abs (5).jpg" alt="">
+                    <br>
+                    <p>John Doe</p>
+                    <p>Age:25</p>
+                    <p>Country:Netherlands</p>
+                    <p>Contact:+257744744856</p>
+            </div>
+            <div class="portfolio_right_container">
+                    <div class="imgGrid-row" id="imagesSection">
+                            <div class="imgGrid-column-4">
+                    
+                            </div>
+                            <div class="imgGrid-column-4">
+                                
+                            </div>
+                            <div class="imgGrid-column-4">
+                                
+                            </div>
+                            <div class="imgGrid-column-4">
+                            
+                            </div>
+                        </div>
+            </div>
+        </div>
+</body>
+</html>
