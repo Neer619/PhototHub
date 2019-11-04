@@ -1,0 +1,111 @@
+*{
+    z-index: 1;
+}
+
+.imgGrid-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    z-index: 1;
+}
+
+.imgGrid-column-4{
+    flex:23%;
+    max-width:24%;
+}
+
+.imgGrid-column-3{
+    flex:31%;
+    max-width: 32%;
+}
+
+//IMAges container
+
+
+.imageContainer{
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    &:hover{
+        transform:scale(1.1);
+        .overlay{
+            visibility: visible;
+        }
+    }
+    
+}
+.myImg{
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    z-index:1;
+    background-color: transparent;
+    img{
+    
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.overlay{
+    visibility: hidden;
+height: 20%;
+width:100%;
+background-color: rgba(0, 0, 0, 0.7);
+z-index:2;
+position: relative;
+top:-20%;
+
+color:white;
+font-size:20px;
+    .material-icons{
+        float: right;
+        margin-right:5px;
+    }
+}
+
+
+//image Modal
+
+
+#mod{
+    position: fixed;
+    display: none;
+    // visibility: hidden;
+    z-index: 5;
+
+    top:0px;
+    left:0px;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}    
+
+.modalImageView{
+    background-color:teal;
+    height: auto;
+    width:80%;
+    /* transform-origin: 50% 50%;  */
+    display: block;
+    margin:auto auto;
+   
+} 
+
+.modalImageView > img{
+        width:100%;
+        height:100%;
+    }
+
+.modalImagecloseBtn{
+    font-size:40px;
+    color:whitesmoke;
+    background-color: transparent;
+    border:none;
+    padding: 0;
+    }
+
+.modalImagecloseBtn:focus, .modalImagecloseBtn:active{
+    outline: none;
+}

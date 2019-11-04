@@ -1,0 +1,18 @@
+.imgGrid-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.imgGrid-column-4 {
+  -webkit-box-flex: 23%;
+      -ms-flex: 23%;
+          flex: 23%;
+  max-width: 24%;
+}
+/*# sourceMappingURL=imgGrid.css.map */

@@ -1,0 +1,21 @@
+.imgGrid-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
+}
+
+.imgGrid-column-4{
+    flex:23%;
+    max-width:24%;
+}
+
+// .imgGrid-column-4 img{
+//     margin-top:8px;
+//     vertical-align: middle;
+//     width:100%;
+// }
+
+// .imgGrid-column-4 img:hover{
+//     transform: scaleY(1.1);
+// }

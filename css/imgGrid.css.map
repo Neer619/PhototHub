@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,OAAO,EAAC,IAAI;EACZ,SAAS,EAAC,IAAI;EACd,eAAe,EAAC,aAAa;CAEhC;;AAED,AAAA,iBAAiB,CAAA;EACb,IAAI,EAAC,GAAG;EACR,SAAS,EAAC,GAAG;CAChB",
+    "sources": [
+        "imgGrid.scss"
+    ],
+    "names": [],
+    "file": "imgGrid.css"
+}

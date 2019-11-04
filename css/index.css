@@ -1,0 +1,89 @@
+body {
+  background-color: #333333;
+}
+
+.hero-image {
+  height: 700px;
+  width: 100%;
+}
+
+.parallax-img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../images/abs (25).jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/abs (25).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-green {
+  background-color: greenyellow;
+  border: none;
+}
+
+.bg-green:hover {
+  background-color: #85d80a;
+  color: white;
+  border: none;
+}
+
+.bg-green:active {
+  background-color: #73b60e;
+  border: none;
+}
+
+.option-cards {
+  color: gray;
+}
+
+.option-cards .card img {
+  height: 100px;
+}
+
+.option-cards .opt-card {
+  margin: 2px;
+  background-color: #252525;
+  text-align: center;
+}
+
+.option-cards .opt-card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 5;
+}
+
+.option-cards .opt-card .card-body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.option-cards .opt-card .card-body .card-title {
+  padding-bottom: 0;
+  margin-bottom: 2px;
+}
+
+.option-cards a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar_btn {
+  padding: 0;
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+}
+
+.sidebar_btn span > .navbar-toggler-icon {
+  margin: 0;
+  padding: 0;
+  background: blue;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 100px;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */
