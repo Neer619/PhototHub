@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="signup.css">
+ 
+</head>
+<body>
+    
+<form id="signup">
+    <header id="newAccount" class="w3-red">Create a new Account</header>
+    <div>
+        <input type="text" placeholder="First Name.." name="firstname" required>
+        <input type="text" placeholder="Last Name.." name="lastname" required>
+        <input type="text" placeholder="Phone Number" name="phoneno" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <input type="password" placeholder="Create a password" name="password" required>
+        <input type="password" placeholder="Re-Enter password" name="re-password" required>
+        <button class="submit_btn">Submit</button>
+    </div>
+</form>
+
+<script>
+    var submit=document.getElementById("submit");
+    submit.onclickn(){window.location.href="loginpage.html"};
+</script>
+</body>
+</html>

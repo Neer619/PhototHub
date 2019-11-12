@@ -1,0 +1,71 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header,input,button{
+    display:block;
+}
+
+body{
+    background:url("images/abs\ \(18\).jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+#signup{
+    width:300px;
+    background:rgba(0, 0, 0, 0.678);
+    position:relative;
+    top:50px;
+    left:500px;
+    padding-bottom:15px ;
+    border-radius: 5px;
+}
+#signup input{
+    margin: 20px;
+    width:250px;
+    background:transparent;
+    height:30px;
+    font-family:cursive;
+    border:none;
+    color:white;
+    border-bottom:1px solid white;
+}
+#newAccount{
+    padding:10px;
+    font-size:15px;
+    text-align:center;
+    background-color: yellowgreen;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+#signup input[type="submit"]
+{
+    border:none;
+    width:200px;
+
+}
+
+
+
+input:focus,input:active{
+    background: transparent;
+}
+
+.submit_btn{
+    margin:auto auto;
+    padding:8px 10px;
+    background-color: teal;
+    border:none;
+    border-radius:15px;
+    font-size:15px;
+    color: wheat;
+    width: 80%;
+   
+
+}
+
